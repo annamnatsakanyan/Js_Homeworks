@@ -13,7 +13,7 @@ for ( let i = 0; i < arr.length; i++ ) {
 for (let i = 0; i < sortedArr.length; i++) {
     for (let j = i + 1; j < sortedArr.length; j++) {
         if (sortedArr[i] === sortedArr[j]) {
-            groupedArr.push(sortedArr[i], sortedArr[j])
+            groupedArr.push(sortedArr[i], sortedArr[j])   // ***************** -----
         }
     }
 }
