@@ -15,7 +15,7 @@ class Clock {
             //this.setAlert(10, 56, 10)
             console.log(this.hour + ":" + this.minute + ":" + this.second);
             
-        }, 1000);
+        }, 1000); 
     };
     validateTime(hour, minute, second) {
         if (this.hour < 10) {
