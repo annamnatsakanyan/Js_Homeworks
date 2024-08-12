@@ -36,6 +36,7 @@ class Clock {
         };
     };
 };
+console.log("444444")
 
 let clock = new Clock();
 clock.start();
